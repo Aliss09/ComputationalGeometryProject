@@ -1,0 +1,15 @@
+N,mode,fps_avg,detect_ms_avg,colliding_pairs_avg,notes
+50,AABB,144.0,1.60,12,Random scatter mixed shapes
+50,GJK_brute,144.0,2.05,10,Random scatter mixed shapes
+50,BVH_GJK,144.0,1.95,10,Random scatter mixed shapes
+100,AABB,100.0,7.00,55,Random scatter mixed shapes
+100,GJK_brute,115.0,4.50,42,Random scatter mixed shapes
+100,BVH_GJK,115.0,4.20,42,Random scatter mixed shapes
+200,AABB,56.0,16.50,220,Random scatter mixed shapes
+200,GJK_brute,50.0,18.00,144,Random scatter mixed shapes
+200,BVH_GJK,52.0,16.80,144,Random scatter mixed shapes
+500,AABB,20.0,99.00,1380,Render bottleneck dominates
+500,GJK_brute,20.0,108.00,890,Render bottleneck dominates
+500,BVH_GJK,20.0,67.00,880,Render bottleneck dominates
+100,AABB,110.0,7.20,70,Crescent stress test - false positives high
+100,BVH_GJK,115.0,7.10,44,Crescent stress test - exact only

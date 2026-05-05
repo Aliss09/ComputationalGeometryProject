@@ -1,0 +1,11 @@
+YouTube video link (Unlisted):
+
+[ ใส่ลิงก์ YouTube ที่นี่หลังอัปโหลดเสร็จ ]
+
+Example format:
+https://youtu.be/XXXXXXXXXXX
+
+The video should be 1-2 minutes and demonstrate:
+1. Input: Non-Convex shapes (stars, L-shapes, crescents) at N=100
+2. Algorithm: Toggle between AABB and BVH+GJK with G key
+3. Output: Colliding pairs highlighted, FPS displayed

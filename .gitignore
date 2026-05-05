@@ -1,0 +1,12 @@
+build/
+*.exe
+*.o
+*.obj
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
