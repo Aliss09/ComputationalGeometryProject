@@ -1,11 +1,7 @@
-YouTube video link (Unlisted):
+YouTube Demo Link (Unlisted):
+https://youtu.be/yGNDy97-2mg
 
-[ ใส่ลิงก์ YouTube ที่นี่หลังอัปโหลดเสร็จ ]
-
-Example format:
-https://youtu.be/XXXXXXXXXXX
-
-The video should be 1-2 minutes and demonstrate:
+The video demonstrates:
 1. Input: Non-Convex shapes (stars, L-shapes, crescents) at N=100
-2. Algorithm: Toggle between AABB and BVH+GJK with G key
-3. Output: Colliding pairs highlighted, FPS displayed
+2. Algorithm: Toggle between AABB baseline and BVH+GJK with G key
+3. Output: 44 vs 70 colliding pairs (37% false positive rate eliminated)

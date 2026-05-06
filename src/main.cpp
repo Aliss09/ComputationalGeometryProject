@@ -14,7 +14,7 @@
 // ─── Config ──────────────────────────────────────────────────────────────────
 static constexpr int   SCREEN_W   = 900;
 static constexpr int   SCREEN_H   = 700;
-static constexpr int   NUM_OBJECTS = 500;  // change to 50,100,200,500 for benchmark
+static constexpr int   NUM_OBJECTS = 100;  // change to 50,100,200,500 for benchmark
 static constexpr bool  USE_GJK    = true; // false = AABB brute-force baseline
 static constexpr bool  USE_BVH    = true;  // ใช้ BVH+GJK แทน brute-force GJK
 
